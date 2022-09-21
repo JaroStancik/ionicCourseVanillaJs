@@ -21,3 +21,8 @@ confirmBtn?.addEventListener("click", () => {
   expensesList.appendChild(newItem);
   console.log(enteredReason, reasonAmount.value);
 });
+
+cancelBtn.addEventListener("click", () => {
+  reasonInput.value = "";
+  reasonAmount.value = "";
+});
